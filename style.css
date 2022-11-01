@@ -50,10 +50,12 @@ body {
 }
 
 .atomtex-logo {
+    margin-bottom: 70px;
     width: 245px;
-    height: 208px;
+    height: 100px;
     background: url("./assets/logo/atomtex_logo.png") center center no-repeat;
     background-size: contain;
+    cursor: pointer;
 }
 
 .aside-title {
@@ -88,23 +90,54 @@ body {
     justify-content: space-between;
 }
 
-.search-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.search-container {
+    min-width: 530px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    display: inline-block;
+    padding: 0 10px 0 38px;
+    font-family: "Oswald", sans-serif;
+    color: #404040;
+    width: 550px;
     height: 37px;
     background: #ECEDED;
     border-radius: 5px;
-    margin-left: 10%;
+}
+
+.btn-container {
+    margin-left: 1px;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-line {
+    height: 37px;
+    margin-left: -30px;
 }
 
 .search-logo {
-    margin-left: 15px;
-    width: 17px;
-    height: 17px;
+    display: flex;
+    z-index: 999;
+    width: 23px;
+    height: 23px;
     background: url("./assets/logo/loupe.svg") no-repeat;
     background-size: contain;
+    cursor: pointer;
+}
+
+.search-logo:hover {
+    filter: invert(12%) sepia(53%) saturate(5399%) hue-rotate(225deg) brightness(89%) contrast(114%);
+}
+
+.btn-wrapper {
+    width: 100%;
 }
 
 .gear-logo {
@@ -113,11 +146,17 @@ body {
     background-size: contain;
     width: 35px;
     height: 35px;
+    cursor: pointer;
+}
+
+.gear-logo:hover {
+    filter: invert(12%) sepia(53%) saturate(5399%) hue-rotate(225deg) brightness(89%) contrast(114%);
 }
 
 .nav {
     width: 200px;
-    margin: 20px;
+    margin: 30px;
+    align-self: flex-start;
 }
 
 .categories {
@@ -132,3 +171,51 @@ body {
     margin: 10px 0;
 }
 
+.category-item:hover {
+    cursor: pointer;
+    color: #B8C9E6;
+}
+
+.printers:before {
+    margin-right: 10px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(151deg) brightness(106%) contrast(101%);
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("./assets/logo/priner.png") center;
+    background-size: contain;
+}
+
+.pc:before {
+    margin-right: 10px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(151deg) brightness(106%) contrast(101%);
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("./assets/logo/PC.png") center;
+    background-size: contain;
+}
+
+.lan:before {
+    margin-right: 10px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(151deg) brightness(106%) contrast(101%);
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("./assets/logo/lan.png") center;
+    background-size: contain;
+}
+
+.box:before {
+    margin-right: 10px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(151deg) brightness(106%) contrast(101%);
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("./assets/logo/box.png") center;
+    background-size: contain;
+}
