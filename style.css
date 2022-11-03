@@ -223,7 +223,7 @@ body {
 
 .main-container {
     width: 100%;
-    padding: 20px 30px;
+    padding: 20px 40px;
     height: 100%;
 }
 
@@ -235,11 +235,11 @@ body {
 }
 
 .address-container {
-    cursor: pointer;
     margin: 0 0 50px 0;
 }
 
 .address {
+    cursor: pointer;
     color: #001E89;
     font-size: 15px;
     font-weight: bold;
@@ -248,4 +248,40 @@ body {
 .start-text {
     text-align: center;
     font-size: 30px;
+}
+
+*:link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+*:visited {
+ text-decoration: none;
+    color: #FFF;
+}
+
+.category-item a:hover{
+    color: #B8C9E6;
+}
+
+.bread-link {
+    color: #001E89;
+}
+
+.article-list_item {
+    margin-bottom: 10px;
+}
+
+.article-list_item-link {
+    color: #000;
+    font-family: "Neue Haas", sans-serif;
+    font-size: 20px;
+}
+
+.article-list_item-link:visited {
+    text-decoration: none;
+}
+
+.article-list_item-link:hover {
+    color: #B8C9E6;
 }
