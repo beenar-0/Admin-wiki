@@ -285,3 +285,9 @@ body {
 .article-list_item-link:hover {
     color: #B8C9E6;
 }
+
+.article-item {
+    margin: 10px;
+    text-align: left;
+    font-size: 20px;
+}
