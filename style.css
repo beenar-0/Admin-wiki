@@ -291,3 +291,20 @@ body {
     text-align: left;
     font-size: 20px;
 }
+
+.twain-setup-img {
+    height: 500px;
+}
+
+.twain-pusk-img {
+    height: 150px;
+}
+
+.twain-utility-window-img {
+    height: 200px;
+}
+
+.img {
+    display: block;
+    margin: 20px;
+}
