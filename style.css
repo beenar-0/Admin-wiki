@@ -310,3 +310,19 @@ body {
     display: block;
     margin: 20px;
 }
+
+.lan_printer_add {
+    height: 200px;
+}
+
+.lan_printer_share {
+    height: 400px;
+}
+
+.lan_printer_pc_open {
+    height: 150px;
+}
+
+.lan_printer_connect {
+    height: 400px;
+}

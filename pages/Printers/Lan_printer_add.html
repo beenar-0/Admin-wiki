@@ -51,35 +51,37 @@
                     <div class="address-container">
                         <span class="address"><a href="../../index.html" class="link bread-link">Главная</a> >  <a
                                 href="../Printers.html" class="link bread-link">Принетеры/МФУ</a> > <a href=""
-                                                                                                       class="link bread-link">Установка TWAIN Драйвера</a></span>
+                                                                                                       class="link bread-link">Предоставление доступа к локальному принтеру на другом ПК</a></span>
                     </div>
                     <article class="start-text">
                         <div class="article-wrapper">
                             <ol class="article-list">
-                                <li class="article-item">Скачиваем TWAIN драйвер с официального сайта Принтера/МФУ</li>
-                                <li class="article-item">Распаковываем архив и запускаем setup.exe</li>
-                                <li class="article-item">
-                                    <span>Уточняем ip-адрес принтера/МФУ и выбираем его в списке</span>
-                                    <img alt="twain setup window" src="../../assets/img/twain_setup.jpg"
-                                         class="twain-setup-img img">
-                                    <span>В меню "выберите функции, которые хотите использовать с этим устройством" ставим галочку</span>
+                                <li class="article-item">Узнать инвентарный номер ПК, к которому локально подключён
+                                    принтер/МФУ
                                 </li>
-                                <li class="article-item">Нажимаем "Далее" и завершаем установку</li>
-                                <li class="article-item">
-                                    <span>В меню "Пуск" находим и запускаем утилиту "TWAIN Driver Setting"</span>
-                                    .<img src="../../assets/img/twain_pusk.jpg" alt="Twain pusk" class="twain-pusk-img img">
+                                <li class="article-item">На этом ПК открыть общий доступ к принтеру:
+                                    <ol class="article-list">
+                                        <li class="article-item">Win + R</li>
+                                        <li class="article-item">Вводим "control printers", нажимаем Enter</li>
+                                        <li class="article-item">Правой кнопкой по нужному принтеру > Свойства принтера
+                                            <img src="../../assets/img/lan_printer_share.jpg" alt="lan printer share"
+                                                 class="img lan_printer_add"></li>
+                                        <li class="article-item">Переходим на вкладку "Доступ"</li>
+                                        <li class="article-item">Ставим галочку в пункте "Общий доступ к данному
+                                            принтеру" и вводим имя принтера, под которым он будет виден в сети
+                                            <img src="../../assets/img/lan_printer_share_2.jpg" alt="lan printer share 2" class="img lan_printer_share">
+                                        </li>
+                                        <li class="article-item">Нажимаем "Применить"</li>
+                                    </ol>
                                 </li>
-                                <li class="article-item">
-                                    <span>В окне утилиты нажимаем "Добавить"</span>
-                                    <img src="../../assets/img/TWAIN_utility_window.jpg" alt="twain utility window" class="twain-utility-window-img img">
+                                <li class="article-item">На ПК, с которого мы хотим добавить принтер нажимаем "Win + R"</li>
+                                <li class="article-item">Вводим "\\INV-{инвентарный номер ПК, который мы узнали в пункте 1}
+                                    <img src="../../assets/img/lan_printer_pc_open.jpg" alt="lan printer pc open" class="img lan_printer_pc_open">
                                 </li>
-                                <li class="article-item">
-                                    <span>В открвышемся окне заполняем имя сканнера (произвольно), в выпадающем списке выбираем модель сканнера и вводим ip-адрес МФУ</span>
-                                    <img src="../../assets/img/TWAIN_utility_add-new-scanner.jpg" alt="twain utility add new scanner" class="twain_utility_add-new-scanner-img img">
+                                <li class="article-item">В открвшемся окне кликаем правой кнопкой мыши на нужный принтер > нажимаем подключить
+                                <img src="../../assets/img/lan_printer_connect.jpg" alt="lan printer connect" class="img lan_printer_connect">
                                 </li>
-                                <li class="article-item">
-                                    <span>Нажимаем "ок". Установка и настройка драйвера завершена</span>
-                                </li>
+                                <li class="article-item">Принтер добавлен</li>
                             </ol>
                         </div>
                     </article>
