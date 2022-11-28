@@ -338,3 +338,22 @@ body {
 .kyocera_pipka {
     height: 400px;
 }
+
+.naps-link {
+    color: #001E89;
+    font-weight: 700;
+}
+
+.naps-img {
+    height: 400px;
+}
+
+.twain-link {
+    color: #001E89;
+    font-weight: 700;
+}
+.twain-text {
+    width: 100%;
+    margin: 15px 0;
+    display: block;
+}
